@@ -13,7 +13,7 @@ document.getElementById('oblicz').addEventListener('click', function () {
                 document.getElementsByClassName('uczen')[i].style.backgroundColor = 'red';
             }
         }
-        if (document.getElementsByClassName('zajecia-dodatkowe')[i].value !== '' && srednia < 6) {
+        if (document.getElementsByClassName('zajecia-dodatkowe')[i+1].value !== '' && srednia < 6) {
             srednia += dodatkowe;
         }
 
